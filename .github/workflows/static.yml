@@ -49,3 +49,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./dist
+          repository_name: <your-repo-name> # Replace with your repository name
+          branch: gh-pages # The branch the action should deploy to.
