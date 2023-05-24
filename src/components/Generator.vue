@@ -16,7 +16,7 @@
     if(firstCharFixToMo.value){
       text = "も";
     }
-    let lukkey = Math.random()*300 < 1;
+    let lukkey = Math.random()*100 < 1;
     if(lukkeyMode.value&&lukkey){
       text = "な";
     }
