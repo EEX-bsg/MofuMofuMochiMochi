@@ -56,7 +56,7 @@
 
   const tweet =()=> {
     const text = encodeURI(result.value+"\n");
-    window.open("http://twitter.com/share?text="+text+"&url=https%3A%2F%2Fgithub.com")
+    window.open("http://twitter.com/share?text="+text+"&url=https%3A%2F%2Feex-bsg.github.io%2FMofuMofuMochiMochi%2F")
   }
 </script>
 
